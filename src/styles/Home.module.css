@@ -1,0 +1,62 @@
+.container{
+    height:calc(100vh - 65px) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: text;
+}
+.wrapper{
+    color: #bdc0c4;
+    text-shadow: 2px 2px 0px #282C34, 5px 4px 0px rgba(0,0,0,0.3);
+    line-height: 65px; 
+}
+.intro{
+    font-size: 48px;
+}
+.role{
+    font-size: 36px;
+    text-align: center;
+}
+.iconContainer{
+    margin-top: 50px;
+    display: flex;
+    
+}
+.icons{
+    /* margin-left: 40px; */
+    font-size: 24px;
+    box-shadow: 6px 3px 11px -1px rgba(0,0,0,0.55);
+-webkit-box-shadow: 6px 3px 11px -1px rgba(0,0,0,0.55);
+-moz-box-shadow: 6px 3px 11px -1px rgba(0,0,0,0.55);
+text-decoration: none;
+cursor: pointer;
+border-radius: 5px;
+color: #9c9c9c;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+
+}
+.iconsClass{
+    position: relative;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 680px) {
+    .iconContainer{
+        flex-direction: column;
+    }
+    .icons{
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .intro{
+        font-size: 24px;
+    }
+    .role{
+        font-size: 18px;
+    }
+}

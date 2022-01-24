@@ -1,0 +1,21 @@
+.container{
+    flex: 4%;   
+    background: #333842;
+    position: sticky;
+    top: 0;
+    height: calc(100vh);
+ 
+}
+.list{
+    color: #9599A0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.item{
+    margin-bottom: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,105 @@
+
+.tabs{
+  padding: 10px;
+  display: flex;
+  height: 40px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+ 
+}
+.button{
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: #9599A0;
+  color: #333842;
+  font-size: 20px;
+  border-top: 1px solid teal;
+  transition: 0.5s ease;
+}
+.button:hover{
+  background-color: #333842;
+  color:#9599A0; 
+
+}
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    color: #9599A0;
+    min-height: 200px!important;
+    margin-top: 20px;
+ 
+  }
+  
+  .flexItemLeft{
+    padding: 10px;
+    flex: 2 0 ; /* explanation below */
+    display: flex;
+    margin-right: 20px;
+    box-shadow: 7px 2px 24px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 2px 24px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 2px 24px 0px rgba(0,0,0,0.75);
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .tag{
+      font-size: 18px;
+      margin-top: 20px; 
+  }
+  .image{
+      height: 150px;
+      width: 150px;
+      display: flex;
+  }
+  .image>img{
+      object-fit: cover;
+      justify-content: center;
+      align-items: center;
+  }
+  .desc{
+      font-size: 22px;
+      
+  }
+  .icons{
+    display: flex;
+    
+  }
+  .projects>h1{
+      font-size: 24px;
+      text-align: center;
+  }
+  .icons{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      margin-top: 20px;
+  }
+  .icons>a{
+      margin-left: 20px;
+  }
+
+
+  @media (max-width: 800px) {
+    .flexContainer {
+      flex-direction: column;
+      
+    }
+    .flexItemLeft{
+      flex-direction: column;
+      margin-right: 0;
+      padding: 5px;
+      
+    }
+  
+  }
+  
